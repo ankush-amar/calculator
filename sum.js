@@ -3,7 +3,6 @@ const sumRequestHandeler = (res, req) => {
 
     const body = []
     req.on('data', chunk => { 
-        console.log(chunk);
         body.push(chunk);
     });
 
@@ -12,7 +11,7 @@ const sumRequestHandeler = (res, req) => {
         const params = new URLSearchParams(bodyStr);
         const bodyObj = Object.fromEntries(params);
         console.log(bodyObj);
-        const result = bodyObj.first + bodyObj.second;
+        const result = Number(bodyObj.first) + Number(bodyObj.second);
         console.log(result);
     })
 
