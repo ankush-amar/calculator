@@ -23,8 +23,8 @@ const requestHandeler = (req , res) => {
                     <title>Keep Practicing</title>
                 </head>
                 <body>
-                    <h1>404 page does not exist</h1>
-                    <a href="/calculator">Go to Calculator</a>
+                    <h1>ERROR</h1>
+                    <h3> -:404:- page does not exist</h3>
                 <body>
             </html>
         `);
