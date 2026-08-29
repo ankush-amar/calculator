@@ -16,6 +16,19 @@ const requestHandeler = (req , res) => {
         `);
         return res.end();
     }
+    res.setHeader('Content-Type', 'text/html');
+        res.write(`
+            <html>
+                <head>
+                    <title>Keep Practicing</title>
+                </head>
+                <body>
+                    <h1>404 page does not exist</h1>
+                    <a href="/calculator">Go to Calculator</a>
+                <body>
+            </html>
+        `);
+        return res.end();
 
 }
 exports.requestHandeler = requestHandeler;
