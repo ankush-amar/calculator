@@ -15,7 +15,8 @@ const requestHandeler = (req , res) => {
             </html>
         `);
         return res.end();
-    }else if(req.url.tolowerCase() === '/calculator'){
+
+    }else if(req.url.toLowerCase() === '/calculator'){
         res.setHeader('Content-Type', 'text/html');
         res.write(`
             <html>
@@ -24,9 +25,10 @@ const requestHandeler = (req , res) => {
                 </head>
                 <body>
                     <h1>Start calculating</h1>
-                    <form>
+                    <form action="./calculator-result" method="POST">
                         <input type="text"  placeholder="First number" name="first"/>
                         <input type="text"  placeholder="Second number" name="second"/>
+                        <input type="submit" value"submit"/>
                     </form>
                 <body>
             </html>
@@ -48,7 +50,7 @@ const requestHandeler = (req , res) => {
                 <body>
             </html>
         `);
-        return res.end();
+        res.end();
 
 }
 exports.requestHandeler = requestHandeler;
