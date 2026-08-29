@@ -13,7 +13,7 @@ const sumRequestHandeler = (res, req) => {
         console.log(bodyObj);
         const result = Number(bodyObj.first) + Number(bodyObj.second);
         console.log(result);
-    })
+    });
 
 }
 exports.sumRequestHandeler = sumRequestHandeler;

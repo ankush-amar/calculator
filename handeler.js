@@ -29,7 +29,7 @@ const requestHandeler = (req , res) => {
                     <form action="./calculator-result" method="POST">
                         <input type="text"  placeholder="First number" name="first"/>
                         <input type="text"  placeholder="Second number" name="second"/>
-                        <input type="submit" value"submit"/>
+                        <input type="submit" value"submit">
                     </form>
                 <body>
             </html>
