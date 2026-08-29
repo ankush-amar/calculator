@@ -42,18 +42,18 @@ const requestHandeler = (req , res) => {
 
 
     res.setHeader('Content-Type', 'text/html');
-        res.write(`
-            <html>
-                <head>
-                    <title>Keep Practicing</title>
-                </head>
-                <body>
-                    <h1>ERROR</h1>
-                    <h3> -:404:- page does not exist</h3>
-                <body>
-            </html>
-        `);
-    res.end();
+    res.write(`
+        <html>
+            <head>
+                <title>Keep Practicing</title>
+            </head>
+            <body>
+                <h1>ERROR</h1>
+                <h3> -:404:- page does not exist</h3>
+            <body>
+        </html>
+    `);
+    return res.end();
 
 }
 exports.requestHandeler = requestHandeler;
