@@ -1,5 +1,5 @@
 const sumRequestHandeler = (res, req) => {
-    console.log("I sumRequestHandeler", req.url);
+    console.log("I Sum Request Handeler", req.url);
 
     const body = []
     req.on('data', chunk => { 
