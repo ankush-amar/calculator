@@ -1,6 +1,6 @@
-const sumRequestHandeler = (res, req) => {
+const sumRequestHandeler = (req, res) => {
     console.log("I Sum Request Handeler", req.url);
-
+   
     const body = []
     req.on('data', chunk => { 
         body.push(chunk);
@@ -13,6 +13,9 @@ const sumRequestHandeler = (res, req) => {
         console.log(bodyObj);
         const result = Number(bodyObj.first) + Number(bodyObj.second);
         console.log(result);
+        res.write(result.toString());
+        res.end();
+        return;
     });
 
 }

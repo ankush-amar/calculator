@@ -36,9 +36,10 @@ const requestHandeler = (req , res) => {
         `);
         return res.end();
 
-    }else if(req.url.toLowerCase() === '/calculate-result' && req.method === "POST"){
-        return sumRequestHandeler(req, res);
-    }
+    }else if(req.url.toLowerCase() === '/calculator-result' && req.method === "POST"){
+       
+        return sumRequestHandeler(req,res);
+;    }
 
 
     res.setHeader('Content-Type', 'text/html');
