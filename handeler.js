@@ -11,7 +11,7 @@ const requestHandeler = (req , res) => {
                 </head>
                 <body>
                     <h1>Calculator Home</h1>
-                    <a href="/calculator">Go to Calculator</a>
+                    <a href= "/calculator" > Go to Calculator </a>
                 <body>
             </html>
         `);
@@ -22,7 +22,7 @@ const requestHandeler = (req , res) => {
         res.write(`
             <html>
                 <head>
-                    <title>Keep Practicing</title>
+                    <title> Keep Practicing </title>
                 </head>
                 <body>
                     <h1>Start calculating</h1>
