@@ -14,8 +14,7 @@ const sumRequestHandeler = (req, res) => {
         const result = Number(bodyObj.first) + Number(bodyObj.second);
         console.log(result);
         res.write(result.toString());
-        res.end();
-        return;
+        return res.end();
     });
 
 }

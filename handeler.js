@@ -17,7 +17,7 @@ const requestHandeler = (req , res) => {
         `);
         return res.end();
 
-    }else if(req.url.toLowerCase() === '/calculator'){
+    }else if(req.url.toLowerCase() === '/calculator') {
         res.setHeader('Content-Type', 'text/html');
         res.write(`
             <html>
@@ -36,7 +36,7 @@ const requestHandeler = (req , res) => {
         `);
         return res.end();
 
-    }else if(req.url.toLowerCase() === '/calculator-result' && req.method === "POST"){
+    }else if(req.url.toLowerCase() === '/calculator-result' && req.method === "POST") {
        
         return sumRequestHandeler(req,res);
 ;    }
