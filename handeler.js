@@ -50,7 +50,7 @@ const requestHandeler = (req , res) => {
             </head>
             <body>
                 <h1>ERROR</h1>
-                <h3> -:404:- page does not exist</h3>
+                <h3> -:404:- page not found</h3>
             <body>
         </html>
     `);
