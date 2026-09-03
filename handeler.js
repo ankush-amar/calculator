@@ -7,7 +7,7 @@ const requestHandeler = (req , res) => {
         res.write(`
             <html>
                 <head>
-                    <title> Keep Practicing</title>
+                    <title>calculating</title>
                 </head>
                 <body>
                     <h1>Calculator Home</h1>
