@@ -22,7 +22,7 @@ const requestHandeler = (req , res) => {
         res.write(`
             <html>
                 <head>
-                    <title> Keep Practicing </title>
+                    <title> calculating </title>
                 </head>
                 <body>
                     <h1>Start calculating</h1>
@@ -46,7 +46,7 @@ const requestHandeler = (req , res) => {
     res.write(`
         <html>
             <head>
-                <title>Keep Practicing</title>
+                <title>calculating</title>
             </head>
             <body>
                 <h1>ERROR</h1>
