@@ -1,6 +1,6 @@
 const {sumRequestHandeler} = require('./sum');
-const requestHandeler = (req , res) => {
-    console.log(req.url, req.method);
+const requestHandeler = (req, res) => {
+    console.log(req.url, req.method, req.header);
 
     if(req.url === '/'){
         res.setHeader('Content-Type', 'text/html');
