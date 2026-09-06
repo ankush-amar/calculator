@@ -13,8 +13,8 @@ const sumRequestHandeler = (req, res) => {
         console.log(bodyObj);
         const result = Number(bodyObj.first) + Number(bodyObj.second);
         console.log(result);
-        res.write(result.toString());
-        return res.end();
+        // res.write(result.toString());
+        // return res.end();
         res.setHeader('Content-Type', 'text/html');
         res.write(`
             <html>
@@ -22,7 +22,7 @@ const sumRequestHandeler = (req, res) => {
                     <title>calculating</title>
                 </head>
                 <body>
-                    <h3>Your Sum is ${result}</h3>
+                    <h3>Your Sum is : ${result}</h3>
                 <body>
         </html>
        `);
