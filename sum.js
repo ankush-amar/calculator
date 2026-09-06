@@ -16,6 +16,17 @@ const sumRequestHandeler = (req, res) => {
         res.write(result.toString());
         return res.end();
     });
+    res.setHeader('Content-Type', 'text/html');
+    res.write(`
+        <html>
+            <head>
+                <title>calculating</title>
+            </head>
+            <body>
+                <h3>Your Sum is ${result}</h3>
+            <body>
+        </html>
+    `);
 
 }
 exports.sumRequestHandeler = sumRequestHandeler;
