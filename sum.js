@@ -22,7 +22,7 @@ const sumRequestHandeler = (req, res) => {
                     <title>calculating</title>
                 </head>
                 <body>
-                    <h3>Your Sum is : ${result}</h3>
+                    <h3>Your Sum is : ${result} </h3>
                 <body>
             </html>
        `);
