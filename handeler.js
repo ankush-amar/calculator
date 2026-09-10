@@ -7,7 +7,7 @@ const requestHandeler = (req, res) => {
         res.write(`
             <html>
                 <head>
-                    <title>calculating</title>
+                    <title>Calculating</title>
                 </head>
                 <body>
                     <h1>Calculator Home</h1>
@@ -50,7 +50,7 @@ const requestHandeler = (req, res) => {
             </head>
             <body>
                 <h1>ERROR</h1>
-                <h3> -:404:- page not found</h3>
+                <h3> -:404:- Page Not Found</h3>
             <body>
         </html>
     `);
