@@ -46,7 +46,7 @@ const requestHandeler = (req, res) => {
     res.write(`
         <html>
             <head>
-                <title>calculating</title>
+                <title>Calculating</title>
             </head>
             <body>
                 <h1>ERROR</h1>
