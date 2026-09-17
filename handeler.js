@@ -22,10 +22,10 @@ const requestHandeler = (req, res) => {
         res.write(`
             <html>
                 <head>
-                    <title> calculating </title>
+                    <title> Calculating </title>
                 </head>
                 <body>
-                    <h1>Start calculating</h1>
+                    <h1>Start Calculating</h1>
                     <form action="./calculator-result" method="POST">
                         <input type="text"  placeholder="First number" name="first"/>
                         <input type="text"  placeholder="Second number" name="second"/>
