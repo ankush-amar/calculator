@@ -10,7 +10,7 @@ const requestHandeler = (req, res) => {
                     <title>Calculating</title>
                 </head>
                 <body>
-                    <h1>Calculator Home</h1>
+                    <h1> Welcome to Calculator Home</h1>
                     <a href= "/calculator" > Go to Calculator </a>
                 <body>
             </html>
