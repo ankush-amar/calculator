@@ -22,7 +22,7 @@ const requestHandeler = (req, res) => {
         res.write(`
             <html>
                 <head>
-                    <title> Calculating </title>
+                    <title>Calculating</title>
                 </head>
                 <body>
                     <h1>Start Calculating</h1>
