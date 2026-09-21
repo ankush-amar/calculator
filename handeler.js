@@ -11,7 +11,7 @@ const requestHandeler = (req, res) => {
                 </head>
                 <body>
                     <h1> Welcome to Home</h1>
-                    <a href= "/calculator" > Go to Calculator </a>
+                    <a href= "/calculator" >Go to Calculator</a>
                 <body>
             </html>
         `);
