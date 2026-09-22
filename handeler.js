@@ -51,7 +51,7 @@ const requestHandeler = (req, res) => {
             <body>
                 <h1>ERROR</h1>
                 <h3>Status Code : 404</h3>  
-                <h2>Page Not Found</h2>
+                // <h2>Page Not Found</h2>
             <body>
         </html>
     `);
